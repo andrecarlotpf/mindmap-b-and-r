@@ -15,39 +15,36 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-.block-container {
-    padding-top: 2rem;
-    max-width: 900px;
-}
-
-/* Título */
-h1, h2, h3 {
-    font-family: ui-sans-serif, system-ui;
-    font-weight: 700;
-}
-
-/* Botões estilo card */
+/* BOTÃO estilo card (FORÇADO) */
 div.stButton > button {
     width: 100%;
     text-align: left;
-    border-radius: 12px;
-    padding: 12px;
-    border: 1px solid #e5e7eb;
-    background: white;
-    font-size: 15px;
-    transition: 0.2s;
+    border-radius: 12px !important;
+    padding: 12px !important;
+
+    border: 1px solid #e5e7eb !important;
+    background-color: #ffffff !important;
+
+    color: #111827 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+    box-shadow: none !important;
+    transition: all 0.15s ease-in-out;
 }
 
+/* hover mais Notion-like */
 div.stButton > button:hover {
-    background: #f9fafb;
-    border-color: #d1d5db;
+    background-color: #f9fafb !important;
+    border-color: #d1d5db !important;
     transform: translateY(-1px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06) !important;
 }
 
-/* Breadcrumb */
-.breadcrumb {
-    font-size: 14px;
-    color: #6b7280;
+/* remove foco azul padrão */
+div.stButton > button:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 </style>
