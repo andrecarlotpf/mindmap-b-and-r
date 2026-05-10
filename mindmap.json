@@ -1,0 +1,33 @@
+
+{
+  "title": "Salário Maternidade",
+  "content": "Benefício pago pelo INSS para seguradas em caso de parto, adoção, guarda judicial ou natimorto.",
+  "children": [
+    {
+      "title": "Como solicitar",
+      "content": "1. Acesse o Meu INSS\n2. Faça login com sua conta gov.br\n3. Procure por 'Salário Maternidade'\n4. Envie os documentos necessários.",
+      "children": [
+        {
+          "title": "Documentos necessários",
+          "content": "RG, CPF, certidão de nascimento da criança e documentos que comprovem atividade laboral.",
+          "children": []
+        },
+        {
+          "title": "Onde solicitar",
+          "content": "O pedido pode ser feito pelo site ou aplicativo Meu INSS.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Quem tem direito",
+      "content": "Empregadas CLT, MEI, autônomas, desempregadas em período de graça e seguradas especiais.",
+      "children": []
+    },
+    {
+      "title": "Prazo de análise",
+      "content": "O INSS normalmente analisa o pedido em até 45 dias.",
+      "children": []
+    }
+  ]
+}
